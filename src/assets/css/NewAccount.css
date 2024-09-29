@@ -1,0 +1,84 @@
+/* Full-page container */
+.login-box {
+    background-color: #fff;
+    max-width: 850px;
+    border-radius: 15px;
+  }
+  
+  /* Logo section */
+  .logo h5 {
+    font-weight: 700;
+    font-size: 1.5rem; /* Same font size */
+  }
+  
+  /* Step and Headings */
+  .step-text {
+    font-weight: 600;
+    font-size: 1.1rem; /* Match the font size */
+    letter-spacing: 1px;
+  }
+  
+  .main-heading {
+    font-weight: 700;
+    font-size: 2.2rem; /* Same font size as image */
+    line-height: 1.2;
+  }
+  
+  .sub-heading {
+    font-size: 1rem;
+    font-family: 'Söhne Test', sans-serif;
+  }
+  
+  /* Email input */
+  .email-input {
+    padding: 12px;
+    font-size: 1rem;
+  }
+ 
+  /* Button styling */
+  .continue-btn {
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: 'Söhne Test', sans-serif;
+    /* padding: 8px; */
+  }
+  
+  /* Custom media queries for responsiveness */
+  @media (max-width: 768px) {
+    .login-box {
+      padding: 20px;
+    }
+  
+    .logo h5 {
+      font-size: 1.25rem;
+    }
+  
+    .main-heading {
+      font-size: 1.8rem;
+    }
+  
+    .step-text, .sub-heading, .continue-btn {
+      font-size: 0.95rem;
+      font-family: 'Söhne Test', sans-serif;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .login-box {
+      padding: 15px;
+    }
+  
+    .main-heading {
+      font-size: 1.6rem;
+    }
+  
+    .logo h5 {
+      font-size: 1rem;
+    }
+  
+    .step-text, .sub-heading, .continue-btn {
+      font-size: 0.85rem;
+      font-family: 'Söhne Test', sans-serif;
+    }
+  }
+  

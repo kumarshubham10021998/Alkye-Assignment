@@ -1,0 +1,36 @@
+/* Adjust the position and styling of carousel indicators */
+.carousel-indicators {
+    position: absolute;
+    bottom: 20px; /* Distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 12px; /* Increased gap for better spacing */
+    list-style: none;
+}
+
+/* Customize each button as a circle */
+.carousel-indicators button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px; /* Circular indicator size */
+    padding: 0;
+    outline: none; /* Remove focus outline */
+}
+
+/* Styling active and inactive indicators */
+.carousel-indicators .active i {
+    color: #fff; /* White color for active indicator */
+}
+
+.carousel-indicators i {
+    color: rgba(255, 255, 255, 0.5); /* Gray for inactive indicators */
+}
+
+/* Custom controls for carousel navigation */
+.carousel-control-container .custom-control {
+    color: #ffffff; /* Adjust the color for better visibility */
+    font-size: 30px;
+    padding: 0 15px;
+}

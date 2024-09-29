@@ -1,0 +1,78 @@
+/* Container style */
+.container-fluid {
+    background-color: #f9f9f9; /* Light background */
+    padding: 20px;
+}
+
+/* Form box */
+.login-box {
+    max-width: 900px;
+    background-color: white;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Adjust font sizes for mobile and larger screens */
+.step-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.main-heading {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.sub-heading {
+    font-size: 14px;
+    color: #666;
+}
+
+.small-text {
+    font-size: 12px;
+    color: #666;
+    max-width: 70%;
+}
+
+.continue-btn {
+    font-size: 14px;
+}
+
+.disclaimer-text {
+    font-size: 12px;
+    color: #666;
+    text-align: justify;
+}
+
+/* Form input styles */
+.email-input {
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 24px;
+    }
+
+    .small-text {
+        font-size: 12px;
+        max-width: 100%; /* Full width on smaller screens */
+    }
+
+    .continue-btn {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+@media (min-width: 769px) {
+    .continue-btn {
+        width: auto;
+    }
+}
